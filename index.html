@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jonathon Moreno</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ========== Start Header ========== -->
+
+    <div class="header">
+      <nav class="navbar">
+        <div class="leftnav">
+          <a class="navname" href="#home">Jonathon Moreno</a>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- ========== End Header ========== -->
+
+    <!-- ========== Start home ========== -->
+
+    <div class="home" id="home">
+      <div class="home_image">
+        <img
+          class="profile_pic"
+          src="/assets/profile-pic2.JPG"
+          alt="Profile photo"
+        />
+      </div>
+      <div class="home_header">
+        <h1>Web Designer</h1>
+      </div>
+      <div class="home_subheader">
+        <h2>Looking for a website?</h2>
+      </div>
+      <div class="resume_btn">
+        <a href="#home"><button class="resume_button">Resume</button></a>
+      </div>
+      <div class="contact_btn">
+        <a href="#contact"><button class="contact_button">Contact</button></a>
+      </div>
+
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/jonathon-moreno-497247197/"
+          ><img src="/assets/linkedin.png" alt="" class="social_logo"
+        /></a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/Jonmoreno14/"
+          ><img src="/assets/github.png" alt="" class="social_logo"
+        /></a>
+      </div>
+    </div>
+
+    <!-- ========== End home ========== -->
+
+    <!-- ========== Start about ========== -->
+
+    <div class="about" id="about">
+      <div class="about_header">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="education_subheader">
+        <h1>Education</h1>
+      </div>
+      <div class="experience_subheader">
+        <h1>Experience</h1>
+      </div>
+
+      <div class="skills_subheader">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="box education">
+        <p>
+          Bachelors in Science Computer Science & Information Assurance <br />
+          <br />
+          Sam Houston State University <br />
+          2021
+        </p>
+      </div>
+      <div class="box experience">
+        <p>
+          I'm a web developer from Texas, with over 8 years experience in
+          programming, troubleshooting and advanced technical support.
+        </p>
+      </div>
+      <div class="box skills">
+        <p>
+          HTML <br />
+          CSS <br />
+          JavaScript <br />
+          Java <br />
+          Python <br />
+          C++ <br />
+          WordPress <br />
+          BlueHost
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== End about ========== -->
+
+    <!-- ========== Start porfolio ========== -->
+
+    <div class="portfolio" id="portfolio">
+      <div class="portfolio_header">
+        <h1>Portfolio</h1>
+      </div>
+
+      <div class="image_container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img
+              id="slide-1"
+              src="/assets/image1.png"
+              alt="3D rendering of an imaginary orange planet in space"
+            />
+            <img
+              id="slide-2"
+              src="/assets/image2.png"
+              alt="3D rendering of an imaginary green planet in space"
+            />
+            <img
+              id="slide-3"
+              src="/assets/image3.png"
+              alt="3D rendering of an imaginary blue planet in space"
+            />
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End porfolio ========== -->
+
+    <!-- ========== Start contact ========== -->
+
+    <div class="contact" id="contact">
+      <div class="contactInfo">
+        <img src="/assets/email.png" class="social_logo" alt="" />
+        <p>JonathonJMoreno@gmail.com</p>
+        <a href="https://www.linkedin.com/in/jonathon-moreno-497247197/"
+          ><img src="/assets/linkedin.png" class="social_logo" alt="" />
+          LinkedIn
+        </a>
+      </div>
+
+      <form
+        action="https://formsubmit.co/JonathonJMoreno@gmail.com"
+        method="POST"
+      >
+        <button class="submit" type="submit">Send</button>
+        <input
+          class="email"
+          placeholder="Your email"
+          type="email"
+          name="email"
+          required
+        />
+
+        <textarea
+          class="message"
+          placeholder="Your message"
+          type="textarea"
+          name="message"
+          required
+        />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://yourdomain.co/thanks.html"
+        />
+        <input type="hidden" name="_subject" value="Website Inquiry" />
+      </form>
+    </div>
+
+    <!-- ========== End contact ========== -->
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
